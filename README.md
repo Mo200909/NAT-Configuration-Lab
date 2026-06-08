@@ -1,9 +1,4 @@
 # NAT Configuration Lab
-
-Configured Network Address Translation (NAT/PAT) on a Cisco 1941 router in Cisco Packet Tracer to allow internal private network hosts to reach an external network through a single public interface.
-
----
-
 ## Network Topology
 
 - **Internal network:** 192.168.1.0/24 (VInetPC1, VInetPC2)
