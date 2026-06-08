@@ -1,5 +1,3 @@
-
-
 # NAT Configuration Lab
 
 Configured Network Address Translation (NAT/PAT) on a Cisco 1941 router in Cisco Packet Tracer to allow internal private network hosts to reach an external network through a single public interface.
@@ -52,22 +50,22 @@ Verified translations with:
 show ip nat translations
 ```
 
-The translation table showed private IPs (192.168.1.x) being mapped to the router's public interface (172.16.0.2).
+Translation table showed private IPs (192.168.1.x) being mapped to the router's public interface (172.16.0.2).
 
 ---
 
 ## Screenshots
 
-| File | Description |
-|------|-------------|
-| `nat_topology.png` | Network topology diagram |
-| `nat_cli_open.png` | Router CLI open in Packet Tracer |
-| `nat_inside_outside.png` | Inside and outside interfaces configured |
-| `nat_access_list.png` | Access list created |
-| `nat_pat_save.png` | PAT overload command and config saved |
-| `nat_ping_pc1.png` | Ping from PC1 successful |
-| `nat_ping_pc2.png` | Ping from PC2 successful |
-| `nat_translation_table.png` | NAT translation table output |
+| Filename | Page | Content |
+|----------|------|---------|
+| `nat_access_list.png` | Page 1 | `access-list 1 permit 192.168.1.0 0.0.0.255` |
+| `nat_cli_open.png` | Page 2 | Router CLI tab open in Packet Tracer |
+| `nat_inside_outside.png` | Page 3 | `ip nat inside` and `ip nat outside` configured |
+| `nat_translation_table.png` | Page 4 | `show ip nat translations` output |
+| `nat_topology.png` | Page 5 | Network topology diagram |
+| `nat_pat_save.png` | Page 6 | PAT overload + `write` config saved |
+| `nat_ping_pc1.png` | Page 7 | Ping from PC1 successful |
+| `nat_ping_pc2.png` | Page 8 | Ping from PC2 successful |
 
 ---
 
